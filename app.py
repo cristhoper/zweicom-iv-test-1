@@ -10,7 +10,7 @@ def fibonacci(n):
     return n_2
 
 
-@app.route('/number/<number>', methods=['GET'])
+@app.route('/fibonacci/<number>', methods=['GET'])
 def fibonacci_element(number):
     try:
         number = int(number)
