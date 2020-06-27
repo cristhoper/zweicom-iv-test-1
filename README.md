@@ -12,7 +12,7 @@ Por esto, se deben instalar lo siguiente:
 $ sudo apt install python-virtualenv virtualenv
 $ virtualenv venv --python=python3
 $ . venv/bin/activate
-(venv) $
+(venv) $ pip install -r requirements.txt
 ```
 
 Luego, para levantar el servicio:
